@@ -1,0 +1,7 @@
+<div>
+    <h1> Item List </h1>
+    <ul>
+        <li *ngFor="let item of itemList">{{item}}</li>
+    </ul>
+    <button type="button" class="btn btn-primary" (click)="openModalWithComponent()">Add New Item</button>
+</div>
